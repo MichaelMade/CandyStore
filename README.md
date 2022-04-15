@@ -1,4 +1,4 @@
-# CandyStore iOS 🍭
+# 🍭 CandyStore iOS
 
 ## Features
 -   MVVM
