@@ -1,4 +1,4 @@
-# CandyStore iOS
+# CandyStore iOS 🍭
 
 ## Features
 -   MVVM
@@ -6,4 +6,4 @@
 -   Firebase Firestore/Storage
 -   Firebase Auth
 -   Apple Auth
--   Candy 🍭
+-   Candy 😋🍬
