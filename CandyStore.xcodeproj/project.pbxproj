@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50EDFAF280621630056DCE4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFAE280621630056DCE4 /* FirebaseAnalytics */; };
+		A50EDFB1280621630056DCE4 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB0280621630056DCE4 /* FirebaseAnalyticsSwift-Beta */; };
+		A50EDFB3280621630056DCE4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB2280621630056DCE4 /* FirebaseAuth */; };
+		A50EDFB5280621630056DCE4 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB4280621630056DCE4 /* FirebaseAuthCombine-Community */; };
+		A50EDFB7280621630056DCE4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB6280621630056DCE4 /* FirebaseFirestore */; };
+		A50EDFB9280621630056DCE4 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB8280621630056DCE4 /* FirebaseFirestoreCombine-Community */; };
+		A50EDFBB280621630056DCE4 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFBA280621630056DCE4 /* FirebaseFirestoreSwift-Beta */; };
 		A521F1EB27EE423200EECF20 /* CandyStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521F1EA27EE423200EECF20 /* CandyStoreApp.swift */; };
-		A521F1ED27EE423200EECF20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521F1EC27EE423200EECF20 /* ContentView.swift */; };
 		A521F1EF27EE423400EECF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A521F1EE27EE423400EECF20 /* Assets.xcassets */; };
 		A521F1F227EE423400EECF20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A521F1F127EE423400EECF20 /* Preview Assets.xcassets */; };
 		A521F1FC27EE423400EECF20 /* CandyStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521F1FB27EE423400EECF20 /* CandyStoreTests.swift */; };
 		A521F20627EE423400EECF20 /* CandyStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521F20527EE423400EECF20 /* CandyStoreUITests.swift */; };
 		A521F20827EE423400EECF20 /* CandyStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521F20727EE423400EECF20 /* CandyStoreUITestsLaunchTests.swift */; };
+		A523455327F81705007AFACC /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A523455227F81705007AFACC /* AuthenticationService.swift */; };
+		A523455727F81CA1007AFACC /* ShopItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A523455627F81CA1007AFACC /* ShopItemView.swift */; };
+		A523455B27F838D0007AFACC /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A523455A27F838D0007AFACC /* SDWebImageSwiftUI */; };
+		A52EB80F28079AA90064F683 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EB80E28079AA90064F683 /* Candy.swift */; };
+		A52EB817280856F50064F683 /* ShopItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EB816280856F50064F683 /* ShopItemViewModel.swift */; };
+		A52EB819280865A60064F683 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EB818280865A60064F683 /* CartItemView.swift */; };
+		A52EB81B2808B7310064F683 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EB81A2808B7310064F683 /* Extensions.swift */; };
+		A54E3EBB27F78252000540D2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E3EBA27F78252000540D2 /* MainView.swift */; };
+		A54E3EC127F78BD4000540D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E3EC027F78BD4000540D2 /* ContentView.swift */; };
+		A54E3EC627F7C924000540D2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E3EC527F7C924000540D2 /* Utils.swift */; };
+		A54E3EC927F7D73B000540D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B9385927F4E35600F3A9FC /* GoogleService-Info.plist */; };
+		A58DC6C327F4EC1800042ABB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58DC6C227F4EC1800042ABB /* LoginView.swift */; };
+		A5A32ABE27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32ABD27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift */; };
+		A5A32ACE27FD8B0200DEBE99 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32ACD27FD8B0200DEBE99 /* ShopViewModel.swift */; };
+		A5B9385A27F4E35600F3A9FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B9385927F4E35600F3A9FC /* GoogleService-Info.plist */; };
+		A5B9387227F4E4D100F3A9FC /* CandyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9387027F4E4D100F3A9FC /* CandyRepository.swift */; };
+		A5E5BCF72800B77C0043073D /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5BCF62800B77C0043073D /* ShopView.swift */; };
+		A5E5BCF92800B7870043073D /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5BCF82800B7870043073D /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +60,6 @@
 /* Begin PBXFileReference section */
 		A521F1E727EE423200EECF20 /* CandyStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A521F1EA27EE423200EECF20 /* CandyStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyStoreApp.swift; sourceTree = "<group>"; };
-		A521F1EC27EE423200EECF20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A521F1EE27EE423400EECF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A521F1F127EE423400EECF20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A521F1F727EE423400EECF20 /* CandyStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +67,23 @@
 		A521F20127EE423400EECF20 /* CandyStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A521F20527EE423400EECF20 /* CandyStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyStoreUITests.swift; sourceTree = "<group>"; };
 		A521F20727EE423400EECF20 /* CandyStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A523455227F81705007AFACC /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		A523455627F81CA1007AFACC /* ShopItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemView.swift; sourceTree = "<group>"; };
+		A52EB80E28079AA90064F683 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		A52EB816280856F50064F683 /* ShopItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemViewModel.swift; sourceTree = "<group>"; };
+		A52EB818280865A60064F683 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		A52EB81A2808B7310064F683 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A54E3EBA27F78252000540D2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A54E3EC027F78BD4000540D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A54E3EC527F7C924000540D2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A54E3ECB27F7DAA3000540D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A58DC6C227F4EC1800042ABB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A5A32ABD27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonView.swift; sourceTree = "<group>"; };
+		A5A32ACD27FD8B0200DEBE99 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		A5B9385927F4E35600F3A9FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5B9387027F4E4D100F3A9FC /* CandyRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyRepository.swift; sourceTree = "<group>"; };
+		A5E5BCF62800B77C0043073D /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		A5E5BCF82800B7870043073D /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +91,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50EDFB1280621630056DCE4 /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				A50EDFAF280621630056DCE4 /* FirebaseAnalytics in Frameworks */,
+				A523455B27F838D0007AFACC /* SDWebImageSwiftUI in Frameworks */,
+				A50EDFB3280621630056DCE4 /* FirebaseAuth in Frameworks */,
+				A50EDFB5280621630056DCE4 /* FirebaseAuthCombine-Community in Frameworks */,
+				A50EDFBB280621630056DCE4 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				A50EDFB7280621630056DCE4 /* FirebaseFirestore in Frameworks */,
+				A50EDFB9280621630056DCE4 /* FirebaseFirestoreCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +142,15 @@
 		A521F1E927EE423200EECF20 /* CandyStore */ = {
 			isa = PBXGroup;
 			children = (
+				A54E3ECB27F7DAA3000540D2 /* Info.plist */,
 				A521F1EA27EE423200EECF20 /* CandyStoreApp.swift */,
-				A521F1EC27EE423200EECF20 /* ContentView.swift */,
+				A523455127F816C6007AFACC /* Services */,
+				A5B9386E27F4E4CC00F3A9FC /* Repositories */,
+				A5B9385C27F4E3AA00F3A9FC /* ViewModels */,
+				A5B9385B27F4E3A100F3A9FC /* Views */,
+				A5B9385D27F4E3B400F3A9FC /* Models */,
+				A54E3EC427F7C913000540D2 /* Utils */,
+				A5B9385927F4E35600F3A9FC /* GoogleService-Info.plist */,
 				A521F1EE27EE423400EECF20 /* Assets.xcassets */,
 				A521F1F027EE423400EECF20 /* Preview Content */,
 			);
@@ -127,6 +182,95 @@
 			path = CandyStoreUITests;
 			sourceTree = "<group>";
 		};
+		A523455127F816C6007AFACC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A523455227F81705007AFACC /* AuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A54E3EC427F7C913000540D2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A54E3EC527F7C924000540D2 /* Utils.swift */,
+				A52EB81A2808B7310064F683 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A5B9385B27F4E3A100F3A9FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A54E3EC027F78BD4000540D2 /* ContentView.swift */,
+				A5E5BCF12800B6F70043073D /* Login */,
+				A5E5BCF22800B7040043073D /* Shop */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5B9385C27F4E3AA00F3A9FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5A32ACD27FD8B0200DEBE99 /* ShopViewModel.swift */,
+				A52EB816280856F50064F683 /* ShopItemViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5B9385D27F4E3B400F3A9FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A52EB80E28079AA90064F683 /* Candy.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5B9386E27F4E4CC00F3A9FC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9387027F4E4D100F3A9FC /* CandyRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A5E5BCF12800B6F70043073D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A58DC6C227F4EC1800042ABB /* LoginView.swift */,
+				A5A32ABD27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A5E5BCF22800B7040043073D /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				A54E3EBA27F78252000540D2 /* MainView.swift */,
+				A5E5BCF32800B71E0043073D /* ProductList */,
+				A5E5BCF42800B72F0043073D /* Cart */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		A5E5BCF32800B71E0043073D /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				A5E5BCF62800B77C0043073D /* ShopView.swift */,
+				A523455627F81CA1007AFACC /* ShopItemView.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		A5E5BCF42800B72F0043073D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				A5E5BCF82800B7870043073D /* CartView.swift */,
+				A52EB818280865A60064F683 /* CartItemView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +287,16 @@
 			dependencies = (
 			);
 			name = CandyStore;
+			packageProductDependencies = (
+				A523455A27F838D0007AFACC /* SDWebImageSwiftUI */,
+				A50EDFAE280621630056DCE4 /* FirebaseAnalytics */,
+				A50EDFB0280621630056DCE4 /* FirebaseAnalyticsSwift-Beta */,
+				A50EDFB2280621630056DCE4 /* FirebaseAuth */,
+				A50EDFB4280621630056DCE4 /* FirebaseAuthCombine-Community */,
+				A50EDFB6280621630056DCE4 /* FirebaseFirestore */,
+				A50EDFB8280621630056DCE4 /* FirebaseFirestoreCombine-Community */,
+				A50EDFBA280621630056DCE4 /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = CandyStore;
 			productReference = A521F1E727EE423200EECF20 /* CandyStore.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +369,10 @@
 				Base,
 			);
 			mainGroup = A521F1DE27EE423200EECF20;
+			packageReferences = (
+				A523455927F838D0007AFACC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A521F1E827EE423200EECF20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +391,7 @@
 			files = (
 				A521F1F227EE423400EECF20 /* Preview Assets.xcassets in Resources */,
 				A521F1EF27EE423400EECF20 /* Assets.xcassets in Resources */,
+				A5B9385A27F4E35600F3A9FC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54E3EC927F7D73B000540D2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +417,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A521F1ED27EE423200EECF20 /* ContentView.swift in Sources */,
+				A54E3EBB27F78252000540D2 /* MainView.swift in Sources */,
+				A5E5BCF72800B77C0043073D /* ShopView.swift in Sources */,
+				A5E5BCF92800B7870043073D /* CartView.swift in Sources */,
+				A5B9387227F4E4D100F3A9FC /* CandyRepository.swift in Sources */,
+				A52EB80F28079AA90064F683 /* Candy.swift in Sources */,
+				A52EB819280865A60064F683 /* CartItemView.swift in Sources */,
+				A52EB817280856F50064F683 /* ShopItemViewModel.swift in Sources */,
+				A58DC6C327F4EC1800042ABB /* LoginView.swift in Sources */,
+				A5A32ABE27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift in Sources */,
+				A523455327F81705007AFACC /* AuthenticationService.swift in Sources */,
 				A521F1EB27EE423200EECF20 /* CandyStoreApp.swift in Sources */,
+				A523455727F81CA1007AFACC /* ShopItemView.swift in Sources */,
+				A54E3EC627F7C924000540D2 /* Utils.swift in Sources */,
+				A52EB81B2808B7310064F683 /* Extensions.swift in Sources */,
+				A54E3EC127F78BD4000540D2 /* ContentView.swift in Sources */,
+				A5A32ACE27FD8B0200DEBE99 /* ShopViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -414,15 +588,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CandyStore/CandyStore.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CandyStore/Preview Content\"";
 				DEVELOPMENT_TEAM = 4ANQ3N3WT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CandyStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -430,11 +610,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmade.CandyStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmade.candystore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,15 +624,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CandyStore/CandyStore.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CandyStore/Preview Content\"";
 				DEVELOPMENT_TEAM = 4ANQ3N3WT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CandyStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,11 +646,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmade.CandyStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmade.candystore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -583,6 +771,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		A523455927F838D0007AFACC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A50EDFAE280621630056DCE4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A50EDFB0280621630056DCE4 /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		A50EDFB2280621630056DCE4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A50EDFB4280621630056DCE4 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		A50EDFB6280621630056DCE4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A50EDFB8280621630056DCE4 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		A50EDFBA280621630056DCE4 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A50EDFAD280621630056DCE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		A523455A27F838D0007AFACC /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A523455927F838D0007AFACC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A521F1DF27EE423200EECF20 /* Project object */;
 }
