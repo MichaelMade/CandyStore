@@ -76,5 +76,6 @@ struct CartItemView_Previews: PreviewProvider {
     static var previews: some View {
         
         return CartItemView(shopItemViewModel: ShopItemViewModel(candy: candyTestData[0]))
+            .environmentObject(ShopViewModel())
     }
 }

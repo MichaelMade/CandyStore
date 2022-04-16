@@ -96,7 +96,7 @@ struct ShopItemView_Previews: PreviewProvider {
         viewModel.inCart = false
         viewModel.inStock = true
         
-        return ShopItemView(shopItemViewModel: viewModel)
+        return ShopItemView(shopItemViewModel: viewModel).environmentObject(ShopViewModel())
     }
 }
 

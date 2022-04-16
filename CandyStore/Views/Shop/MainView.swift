@@ -34,6 +34,6 @@ struct MainView: View {
 
 struct ShopView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView(shopViewModel: ShopViewModel())
+        MainView(shopViewModel: ShopViewModel()).environmentObject(AuthenticationService())
     }
 }

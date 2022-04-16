@@ -48,7 +48,7 @@ struct SignInWithAppleButtonView: View {
 
 struct SignInWithAppleButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        return SignInWithAppleButtonView()
+        return SignInWithAppleButtonView().environmentObject(AuthenticationService())
     }
 }
 
