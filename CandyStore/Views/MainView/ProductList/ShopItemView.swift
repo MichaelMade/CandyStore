@@ -40,7 +40,6 @@ struct ShopItemView: View {
                     .foregroundColor(shopItemViewModel.inStock ? Color(.darkGray) : Color(.lightGray))
                     .font(.system(size: 14.0, weight: .bold, design: .rounded))
                 
-                
                 if shopItemViewModel.inCart {
                     Divider()
                         .padding(.horizontal)

@@ -10,9 +10,10 @@ import SwiftUI
 struct CartView: View {
     
     @EnvironmentObject var viewModel: ShopViewModel
+    @State var showMenu = false
     
     var body: some View {
-        NavigationView {
+        
             VStack {
                 let columns: [GridItem] = Array(repeating: .init(.fixed(125.0), alignment: .center), count: 1)
                 
@@ -20,7 +21,7 @@ struct CartView: View {
                     LazyVGrid(columns: columns) {
                         ForEach($viewModel.cartItemViewModels) { $shopItemViewModel in
                             CartItemView(shopViewModel: _viewModel, shopItemViewModel: shopItemViewModel)
-                        }
+                        }.animation(.spring())
                     }
                 }
                 VStack(spacing: 5) {
@@ -39,18 +40,11 @@ struct CartView: View {
                         .foregroundColor(Color(.blue))
                         .font(.title)
                         .fontWeight(.light)
-                    
                 }
-                .background(Color(.clear).opacity(0.0))
                 .padding(.bottom)
             }
-            .navigationBarTitle("Candy Cart 🍭")
-            .navigationBarTitleTextColor(.accentColor)
-        }
-        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
-    
 
 struct CartView_Previews: PreviewProvider {
     static var previews: some View {

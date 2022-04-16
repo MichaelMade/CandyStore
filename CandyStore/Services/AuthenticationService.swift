@@ -22,7 +22,6 @@ class AuthenticationService: ObservableObject {
     var errorMessage: String = ""
     
     init() {
-                
         // Verify a user isn't already authenticated
         do {
             let storedUser = try Auth.auth().getStoredUser(forAccessGroup: Auth.auth().userAccessGroup)
@@ -71,6 +70,24 @@ extension AuthenticationService {
                 
                 self.userAccount = userResult.user
             }
+        }
+    }
+    
+    func skipLogin() {
+        Auth.auth().signInAnonymously { userResult, error in
+            if let error = error {
+                self.errorMessage = error.localizedDescription
+                return
+            }
+            
+            guard let userResult = userResult else {
+                self.errorMessage = "User not found"
+                return
+            }
+            
+            print("Anonymous user signed in")
+            
+            self.userAccount = userResult.user
         }
     }
     

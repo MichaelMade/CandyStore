@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import FirebaseAuth
+import FirebaseAuthCombineSwift
 
 struct LoginView: View {
     
@@ -13,12 +15,19 @@ struct LoginView: View {
     @State var authError = false
         
     var body: some View {
+        
         VStack(spacing: 10) {
             Image("logo")
                 .resizable()
                 .scaledToFit()
+                        
             SignInWithAppleButtonView(authError: authError)
                 .environmentObject(authService)
+            
+            Button("Skip") {
+                authService.skipLogin()
+            }
+            .padding(.top)
         }
     }
 }
