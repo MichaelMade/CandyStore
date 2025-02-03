@@ -25,15 +25,19 @@ struct ShopItemView: View {
                     .lineLimit(nil)
                     .shadow(radius: 0.75)
                 
-                WebImage(url: URL(string: shopItemViewModel.shopItem.imageUrl))
-                    .placeholder(Image(systemName: "photo"))
-                    .resizable()
+                WebImage(url: URL(string: shopItemViewModel.shopItem.imageUrl)) { image in
+                        image.resizable()
+                    } placeholder: {
+                        Image(systemName: "photo")
+                    }
+                    .onSuccess { image, data, cacheType in
+                    }
                     .indicator(.activity)
                     .transition(.fade(duration: 0.5))
                     .shadow(radius: 5)
                     .scaledToFit()
-                    .frame(maxHeight: 100.0)
                     .padding(10.0)
+                    .frame(maxHeight: 100.0, alignment: .center)
                 
                 Text(String(format: "$%.2f", shopItemViewModel.shopItem.price))
                     .kerning(1)
@@ -62,16 +66,15 @@ struct ShopItemView: View {
                 }
             }
             .padding()
-            .onTapGesture {
-                if !shopItemViewModel.inCart && shopItemViewModel.inStock  {
-                    shopViewModel.addToCart(item: shopItemViewModel)
-                }
-            }
             if shopItemViewModel.inCart {
                 Stepper("", onIncrement: {
-                    shopViewModel.addToCart(item: shopItemViewModel)
+                    withAnimation {
+                        shopViewModel.addToCart(item: shopItemViewModel)
+                    }
                 }, onDecrement: {
-                    shopViewModel.removeFromCart(item: shopItemViewModel)
+                    withAnimation {
+                        shopViewModel.removeFromCart(item: shopItemViewModel)
+                    }
                 })
                 .frame(width: 100, height: 20)
                 .foregroundColor(Color(.lightGray))
@@ -79,11 +82,18 @@ struct ShopItemView: View {
                 .padding(.bottom)
             }
         }
+        .onTapGesture {
+            if !shopItemViewModel.inCart && shopItemViewModel.inStock  {
+                withAnimation {
+                    shopViewModel.addToCart(item: shopItemViewModel)
+                }
+            }
+        }
         .frame(width: 170.0, height: 300.0, alignment: .center)
         .fixedSize()
-        .background(Color("PrimaryColor"))
+        .background(.blueyBlue)
         .cornerRadius(10.0)
-        .shadow(color: Color("SecondaryColor"), radius: 8)
+        .shadow(color: .princessPink, radius: 8)
     }
 }
 

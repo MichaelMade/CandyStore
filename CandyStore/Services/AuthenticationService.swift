@@ -51,7 +51,7 @@ extension AuthenticationService {
             }
             
             // Initialize a Firebase credential.
-            let credential = OAuthProvider.credential(withProviderID: "apple.com",
+            let credential = OAuthProvider.credential(providerID:.apple,
                                                       idToken: idTokenString,
                                                       rawNonce: nonce)
             // Sign in with Firebase.

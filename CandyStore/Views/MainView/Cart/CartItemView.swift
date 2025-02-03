@@ -18,16 +18,20 @@ struct CartItemView: View {
         
         HStack(alignment: .center) {
             HStack {
-                WebImage(url: URL(string: shopItemViewModel.shopItem.imageUrl))
-                    .placeholder(Image(systemName: "photo"))
-                    .resizable()
+                WebImage(url: URL(string: shopItemViewModel.shopItem.imageUrl)) { image in
+                        image.resizable()
+                    } placeholder: {
+                        Image(systemName: "photo")
+                    }
+                    .onSuccess { image, data, cacheType in
+                    }
                     .indicator(.activity)
                     .transition(.fade(duration: 0.5))
                     .shadow(radius: 5)
                     .scaledToFit()
                     .padding(2.0)
                     .frame(width: 60.0, height: 60.0)
-                
+                    
                 VStack(spacing: 10.0) {
                     Text(shopItemViewModel.shopItem.name)
                         .kerning(1.75)
@@ -54,9 +58,13 @@ struct CartItemView: View {
                     .foregroundColor(Color(.darkGray))
                     .font(.system(size: 15.0, weight: .light, design: .rounded))
                 Stepper("", onIncrement: {
-                    shopViewModel.addToCart(item: shopItemViewModel)
+                    withAnimation {
+                        shopViewModel.addToCart(item: shopItemViewModel)
+                    }
                 }, onDecrement: {
-                    shopViewModel.removeFromCart(item: shopItemViewModel)
+                    withAnimation {
+                        shopViewModel.removeFromCart(item: shopItemViewModel)
+                    }
                 })
                 .frame(width: 100, height: 20)
                 .foregroundColor(Color(.lightGray))
@@ -65,9 +73,9 @@ struct CartItemView: View {
         }
         .padding()
         .frame(width: 350.0, height: 125.0, alignment: .center)
-        .background(Color("PrimaryColor"))
+        .background(.blueyBlue)
         .cornerRadius(10.0)
-        .shadow(color: Color("SecondaryColor"), radius: 5)
+        .shadow(color: .princessPink, radius: 5)
         .fixedSize()
     }
 }

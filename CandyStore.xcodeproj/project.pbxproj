@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A50EDFAF280621630056DCE4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFAE280621630056DCE4 /* FirebaseAnalytics */; };
-		A50EDFB1280621630056DCE4 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB0280621630056DCE4 /* FirebaseAnalyticsSwift-Beta */; };
 		A50EDFB3280621630056DCE4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB2280621630056DCE4 /* FirebaseAuth */; };
 		A50EDFB5280621630056DCE4 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB4280621630056DCE4 /* FirebaseAuthCombine-Community */; };
 		A50EDFB7280621630056DCE4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB6280621630056DCE4 /* FirebaseFirestore */; };
 		A50EDFB9280621630056DCE4 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFB8280621630056DCE4 /* FirebaseFirestoreCombine-Community */; };
-		A50EDFBB280621630056DCE4 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A50EDFBA280621630056DCE4 /* FirebaseFirestoreSwift-Beta */; };
 		A521F1EB27EE423200EECF20 /* CandyStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521F1EA27EE423200EECF20 /* CandyStoreApp.swift */; };
 		A521F1EF27EE423400EECF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A521F1EE27EE423400EECF20 /* Assets.xcassets */; };
 		A521F1F227EE423400EECF20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A521F1F127EE423400EECF20 /* Preview Assets.xcassets */; };
@@ -31,6 +29,8 @@
 		A54E3EC127F78BD4000540D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E3EC027F78BD4000540D2 /* ContentView.swift */; };
 		A54E3EC627F7C924000540D2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E3EC527F7C924000540D2 /* Utils.swift */; };
 		A54E3EC927F7D73B000540D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B9385927F4E35600F3A9FC /* GoogleService-Info.plist */; };
+		A566D0892D513E8600A6508E /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A566D0882D513E8600A6508E /* FirebaseCore */; };
+		A566D08B2D5141DF00A6508E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566D08A2D5141DF00A6508E /* AppDelegate.swift */; };
 		A58DC6C327F4EC1800042ABB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58DC6C227F4EC1800042ABB /* LoginView.swift */; };
 		A5A32ABE27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32ABD27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift */; };
 		A5A32ACE27FD8B0200DEBE99 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32ACD27FD8B0200DEBE99 /* ShopViewModel.swift */; };
@@ -77,7 +77,8 @@
 		A54E3EBA27F78252000540D2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A54E3EC027F78BD4000540D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A54E3EC527F7C924000540D2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		A54E3ECB27F7DAA3000540D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A54E3ECB27F7DAA3000540D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A566D08A2D5141DF00A6508E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A58DC6C227F4EC1800042ABB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A5A32ABD27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonView.swift; sourceTree = "<group>"; };
 		A5A32ACD27FD8B0200DEBE99 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
@@ -93,12 +94,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50EDFB1280621630056DCE4 /* FirebaseAnalyticsSwift-Beta in Frameworks */,
 				A50EDFAF280621630056DCE4 /* FirebaseAnalytics in Frameworks */,
 				A523455B27F838D0007AFACC /* SDWebImageSwiftUI in Frameworks */,
 				A50EDFB3280621630056DCE4 /* FirebaseAuth in Frameworks */,
 				A50EDFB5280621630056DCE4 /* FirebaseAuthCombine-Community in Frameworks */,
-				A50EDFBB280621630056DCE4 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				A566D0892D513E8600A6508E /* FirebaseCore in Frameworks */,
 				A50EDFB7280621630056DCE4 /* FirebaseFirestore in Frameworks */,
 				A50EDFB9280621630056DCE4 /* FirebaseFirestoreCombine-Community in Frameworks */,
 			);
@@ -145,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				A54E3ECB27F7DAA3000540D2 /* Info.plist */,
+				A566D08A2D5141DF00A6508E /* AppDelegate.swift */,
 				A521F1EA27EE423200EECF20 /* CandyStoreApp.swift */,
 				A523455127F816C6007AFACC /* Services */,
 				A5B9386E27F4E4CC00F3A9FC /* Repositories */,
@@ -307,6 +308,7 @@
 				A50EDFB6280621630056DCE4 /* FirebaseFirestore */,
 				A50EDFB8280621630056DCE4 /* FirebaseFirestoreCombine-Community */,
 				A50EDFBA280621630056DCE4 /* FirebaseFirestoreSwift-Beta */,
+				A566D0882D513E8600A6508E /* FirebaseCore */,
 			);
 			productName = CandyStore;
 			productReference = A521F1E727EE423200EECF20 /* CandyStore.app */;
@@ -356,7 +358,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					A521F1E627EE423200EECF20 = {
 						CreatedOnToolsVersion = 13.3;
@@ -440,6 +442,7 @@
 				A5A32ABE27FD0F5400DEBE99 /* SignInWithAppleButtonView.swift in Sources */,
 				A523455327F81705007AFACC /* AuthenticationService.swift in Sources */,
 				A521F1EB27EE423200EECF20 /* CandyStoreApp.swift in Sources */,
+				A566D08B2D5141DF00A6508E /* AppDelegate.swift in Sources */,
 				A523455727F81CA1007AFACC /* ShopItemView.swift in Sources */,
 				A54E3EC627F7C924000540D2 /* Utils.swift in Sources */,
 				A52EB81B2808B7310064F683 /* Extensions.swift in Sources */,
@@ -485,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -517,6 +521,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -531,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -545,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -577,6 +583,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -585,7 +592,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -670,7 +677,6 @@
 		A521F20F27EE423400EECF20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -690,7 +696,6 @@
 		A521F21027EE423400EECF20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -710,7 +715,6 @@
 		A521F21227EE423400EECF20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4ANQ3N3WT4;
@@ -728,7 +732,6 @@
 		A521F21327EE423400EECF20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4ANQ3N3WT4;
@@ -790,7 +793,7 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
+				minimumVersion = 11.7.0;
 			};
 		};
 		A523455927F838D0007AFACC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
@@ -798,7 +801,7 @@
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 3.1.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -843,6 +846,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A523455927F838D0007AFACC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		A566D0882D513E8600A6508E /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

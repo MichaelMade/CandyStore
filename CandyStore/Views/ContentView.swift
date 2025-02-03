@@ -11,12 +11,12 @@ import FirebaseAuth
 import FirebaseAuthCombineSwift
 
 struct ContentView: View {
-    
-    @EnvironmentObject var authService: AuthenticationService
+        
+    @ObservedObject var authService = AuthenticationService()
     
     var body: some View {
         
-        if Auth.auth().currentUser == nil {
+        if authService.userAccount == nil {
             LoginView()
                 .environmentObject(authService)
         } else {

@@ -6,21 +6,15 @@
 //
 
 import SwiftUI
-import Firebase
 
 @main
 struct CandyStoreApp: App {
     
-    @ObservedObject var authService: AuthenticationService
-    
-    init() {
-        FirebaseApp.configure()
-        authService = AuthenticationService()
-    }
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(authService)
+            ContentView()
         }
     }
 }

@@ -21,9 +21,10 @@ struct CartView: View {
                     LazyVGrid(columns: columns) {
                         ForEach($viewModel.cartItemViewModels) { $shopItemViewModel in
                             CartItemView(shopViewModel: _viewModel, shopItemViewModel: shopItemViewModel)
-                        }.animation(.spring())
+                        }
                     }
                 }
+                
                 VStack(spacing: 5) {
                     Text("Subtotal")
                         .foregroundColor(Color(.blue))

@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import FirebaseFirestoreSwift
+import FirebaseFirestore
 
 struct Candy: Identifiable, Codable {
     

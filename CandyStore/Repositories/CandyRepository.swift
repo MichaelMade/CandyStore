@@ -8,7 +8,6 @@
 import Foundation
 import Combine
 import FirebaseFirestore
-import FirebaseFirestoreSwift
 import FirebaseFirestoreCombineSwift
 
 class CandyRepository: ObservableObject {

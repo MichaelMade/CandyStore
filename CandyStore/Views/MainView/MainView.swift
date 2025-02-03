@@ -70,7 +70,7 @@ struct MainView: View {
             if self.showMenu {
                 NavigationView {
                     MenuView().environmentObject(shopViewModel)
-                        .background(Color("PrimaryColor"))
+                        .background(.blueyBlue)
                         .onTapGesture {
                             self.showMenu.toggle()
                         }
